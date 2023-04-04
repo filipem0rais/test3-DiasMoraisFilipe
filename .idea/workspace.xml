@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d533701b-eeff-4179-938b-6a8ecbd62a48" name="Changes" comment="Commit2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CamionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CamionNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CamionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProduitDejaChargeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProduitNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProduitTropLourdException.java" afterDir="false" />
+    <list default="true" id="d533701b-eeff-4179-938b-6a8ecbd62a48" name="Changes" comment="Commit3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BadRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BadRequestException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProduitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProduitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/VilleNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/VilleNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CamionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CamionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CamionNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CamionNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProduitDejaChargeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProduitDejaChargeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProduitNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProduitNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProduitTropLourdException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProduitTropLourdException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680607117418</updated>
-      <workItem from="1680607118603" duration="6043000" />
+      <workItem from="1680607118603" duration="8837000" />
     </task>
     <task id="LOCAL-00001" summary="Commit1">
       <created>1680609631354</created>
@@ -111,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680611591382</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit3">
+      <created>1680613217098</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680613217098</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +123,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit1" />
     <MESSAGE value="Commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit2" />
+    <MESSAGE value="Commit3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/CamionController.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -10,7 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(HttpStatus.BAD_REQUEST)
-public class ProduitTropLourdException extends Throwable {
+public class ProduitTropLourdException extends Exception {
     public ProduitTropLourdException(String s) {
         super(s);
 

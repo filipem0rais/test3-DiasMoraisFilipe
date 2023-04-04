@@ -10,7 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(HttpStatus.NOT_FOUND)
-public class ProduitDejaChargeException extends Throwable {
+public class ProduitDejaChargeException extends Exception {
     public ProduitDejaChargeException(String s) {
         super(s);
 
