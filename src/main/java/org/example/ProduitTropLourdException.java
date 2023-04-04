@@ -6,13 +6,12 @@
 
 
 package org.example;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-@ResponseStatus(HttpStatus.NOT_FOUND)
-public class VilleNotFoundException extends Exception {
-    public VilleNotFoundException(String s) {
+@ResponseStatus(HttpStatus.BAD_REQUEST)
+public class ProduitTropLourdException extends Throwable {
+    public ProduitTropLourdException(String s) {
         super(s);
 
     }

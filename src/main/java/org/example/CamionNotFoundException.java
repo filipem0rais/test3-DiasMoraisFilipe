@@ -11,9 +11,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(HttpStatus.NOT_FOUND)
-public class VilleNotFoundException extends Exception {
-    public VilleNotFoundException(String s) {
+public class CamionNotFoundException extends Throwable {
+    public CamionNotFoundException(String s) {
         super(s);
-
     }
 }

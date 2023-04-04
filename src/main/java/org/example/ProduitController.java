@@ -37,12 +37,13 @@ public class ProduitController {
             throw new RuntimeException(e);
         }
         // Vérifier que les attributs obligatoires sont fournis
-        if ((produitDTO.getDescription() == null) || (produitDTO.getPoids() == null) || (produitDTO.getVille() == null)) {
-            return ResponseEntity.badRequest().build();
+        if (produitDTO.getDescription() == null || produitDTO.getPoids() == 0 || produitDTO.getVille() == null) {
+            throw new BadRequestException("Tous les attributs obligatoires doivent être fournis : description, poids, ville.");
         }
+
         // Vérifier que la description ne dépasse pas 20 caractères
         if (produitDTO.getDescription().length() > 20) {
-            return ResponseEntity.badRequest().body("La description doit contenir au maximum 20 caractères.");
+            throw new BadRequestException("La description ne doit pas dépasser 20 caractères.");
         }
 
         // Vérifier que le poids est compris entre 1 et 1000
